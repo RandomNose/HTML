@@ -1,0 +1,21 @@
+*{
+    margin: 10px 50px;
+}
+
+table { 
+/*     border-collapse: collapse; */
+    border: 0.5px solid lightgray;
+}
+
+
+td, th {
+    border: 1px solid white;
+}
+
+th {
+    background-color: lightgray;
+}
+
+tbody > tr:nth-child(even) {
+    background: lightgreen;
+}

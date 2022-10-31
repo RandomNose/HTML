@@ -1,0 +1,9 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: #ff0000;
+    border: 10px solid #00ff00;
+    box-sizing: border-box; /* content-box */
+    /* content-box: box é equivalente ao tamanho o conteúdo, n inclue padding, nem margin, nem border */
+    /* border-box: padding e border serão inclusos dentro do tamanho do elemento. */
+}

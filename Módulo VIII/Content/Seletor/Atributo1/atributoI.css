@@ -1,0 +1,25 @@
+input, a {
+    display: block;
+}
+
+/* Selecionar pelo: 
+- atributo
+- nome da classe; 
+- id do elemento;
+
+*/
+
+/* Atributo */
+[required] {
+    background-color: #ff0000;
+}
+
+/* elemento */
+input[type=password] {
+    background-color: #0000ff;
+}
+
+/* valor */
+input[name="usuario"] {
+    background-color: #00ff00;
+}

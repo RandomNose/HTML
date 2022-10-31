@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario-Empresa</title>
+    <link rel="stylesheet" href="fieldstyle.css">
+</head>
+<body>
+    <form method="post" enctype="multipart/form-data">
+        <input type="hidden" name="country" value="JP">
+    <fieldset>
+        <legend>Dados Pessoais</legend>        
+        <label>
+            Primeiro Nome: <br>
+            <input type="text" name="name" required minlength="2" maxlength="4">
+        </label>
+        <label><br>
+            Sobrenome: <br>
+            <input type="text" name="lastname">
+        </label><br>
+        <label>
+            Data de nascimento: <br> 
+            <input type="date" name="birthdate" required>
+        </label><br>
+        <label>
+            E-mail: <br>
+            <input type="text" name="email" id="" required>
+        </label><br>
+        <label>
+            Foto: <br>
+            <input type="file" name="photo" accept="application/pdf">
+
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Dados Profissionais</legend>
+        <label>
+            Nome da empresa: <br>
+            <input type="text" name="companyname">
+        </label><br>
+        <label>
+            Cargo na empresa: <br>
+            <input type="text" name="companyjobtitle">
+        </label><br>
+    </fieldset>
+        <input type="submit" value="Cadastrar">
+    </form>    
+</body>
+</html>

@@ -1,0 +1,15 @@
+img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover; 
+    /* 
+        Qual o objetivo da propriedade Object-fit no css?  - Deixar a imagem redimensionada dependendo de qualquer tamanho que set nela.
+
+    -- fill - a imagem vai ser redimensionada independente da proporção, de forma a caber e mostrar ela inteira na area disponivel. ou seja se precisar será distorcida;
+    -- contain - manterá ela na dimensão disponível;
+    -- cover - vai manter a proporção da imagem mas vai encaixa-la em todo espaço disponivel cortando o q sobrar e semrpe corta no meio.
+    -- none - manter as dimensoes da imagem e corta sem ajusta-la no espaço disponivel;
+    -- scale-down - irá diminuir proporcionalmente a qualidade da imagem bem como o tamanho para caber na viewport;   
+    */
+}
+

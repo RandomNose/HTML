@@ -1,0 +1,51 @@
+body {
+    padding: 0;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+section {
+    margin: 10px 400px;
+}
+
+h1,
+h2,
+h3 {
+    color: chocolate;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h1,
+h2,
+h3,
+p {
+    text-align: center;
+}
+
+hr {
+    border: 1px solid aqua;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+aside {
+    margin-top: -25px;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(5, 146, 146);
+}
+
+a:hover {
+    color: rgb(5, 206, 206);
+}

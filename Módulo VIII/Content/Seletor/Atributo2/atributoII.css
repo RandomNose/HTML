@@ -1,0 +1,25 @@
+/* Seleçao baseado no atributo href */
+
+input, a {
+    display: block;
+}
+
+a[href^="https:"] { /* ^= Inicio do texto */
+    background-color: #00f;
+}
+
+a[href^="http:"] { /* Adicione dois pontos para n sobreescrever */
+     background-color: #0f0f0f;
+}
+
+a[href*="economia"] { /* *= Qualquer lugar do texto */
+    background-color: #f00;
+}
+
+a[href*="futebol"] { /* *= Qualquer lugar do texto */
+    background-color: #f0f;
+}
+
+a[href$="html"] { /* $= final do texto */
+    background-color: #123456;
+}

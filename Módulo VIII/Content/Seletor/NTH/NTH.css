@@ -1,0 +1,8 @@
+div:nth-child(1) {
+    background-color: #f00;
+}
+
+div:nth-last-child(3) {
+    background-color: #0f0;
+}
+

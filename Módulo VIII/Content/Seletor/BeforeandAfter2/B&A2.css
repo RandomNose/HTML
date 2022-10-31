@@ -1,0 +1,43 @@
+/*  body{
+    background-color: aquamarine;
+}   */
+
+.balao {
+    background-color: #00f;
+    display: inline-block;
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.balao::after {
+    content: '';
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+
+    width: 20px;
+    height: 20px;
+    border: 20px solid;
+    border-color: #00f transparent transparent transparent;
+}
+
+.balaoo {
+    background-color: #00f;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+.balaoo::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    margin-left: 20px;
+    top: 25px;
+    width: 20px;
+    height: 20px;
+    border: 20px solid;
+    border-color: transparent transparent transparent #00f;
+}

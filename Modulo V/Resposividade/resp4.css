@@ -1,0 +1,23 @@
+ /* 
+    O que deve ser definido no @media para que as alterações sejam realizadas na página?
+        R: O tamanho da resolução mínima e máxima para realizar a alteração.
+
+ */
+
+table, td{
+    border: 2px solid #000;
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+@media only screen /* screen, print, all */{
+    h1{
+        /* font-size: 70px;
+        font-weight: normal; */
+        display: none;
+    }
+    table, td{
+        border: 0;
+    }
+}
