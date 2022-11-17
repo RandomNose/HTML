@@ -1,0 +1,14 @@
+.container {
+    display: grid; /* Unidade FR = corresponde à uma fração do espaço no grid; semelhante ao flex: 1;*/
+    grid-template-columns: 2fr 1fr 2fr 1fr; /* FR = varia de acordo com o valor disponível no grid, e colunas ou linhas definidas para preencher o espaço no */
+    grid-gap: 10px;
+
+}
+
+.item {
+    background-color: #00f;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+} 

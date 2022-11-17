@@ -1,0 +1,19 @@
+.container {
+    height: 800px;
+    background-color: #ccc;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-gap: 10px;
+    /* justify-content: end; /* start, end, stretch, space-around, space-between */ 
+    /* align-items: center; */
+    align-content: center; /* end */
+    justify-content: center; 
+}
+
+.item {
+    background-color: #00f;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+}

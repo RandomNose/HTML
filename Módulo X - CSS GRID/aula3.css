@@ -1,0 +1,17 @@
+.container {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* grid-template-columns: 100px 300px 100px 100px;  *//* cria colunas de acordo com espaço determinado em razão do espaço disponível EDet/EDis; podendo ser 1,2,3,4... colunas */
+    /* grid-template-columns: auto auto; */ /* No caso duas colunas definidas e irão preencher o espaço disponível automaticamente */
+    grid-template-columns: auto 200px 100px;
+    grid-template-rows: 100px 200px 50px 300px;
+    grid-gap: 10px; 
+}
+
+.item {
+    background-color: #00f;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px; 
+}
